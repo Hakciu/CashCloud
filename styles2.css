@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #101010;
+  margin: 0;
+}
+
+a {
+  color: #101010;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #27356b;
+}
+
+.first {
+  color: #27356b;
+}
+
+.second {
+  color: #2691c3;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  flex: 1;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 5rem;
+  font-weight: bold;
+}
+
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  border: 1px solid #0070ba;
+  font-size: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.login {
+  background-color: #ffffff;
+  color: #0070ba;
+}
+
+.register {
+  background-color: #0070ba;
+  color: #ffffff;
+}
+
+.register:hover {
+  background-color: #005a9e;
+}
+
+.phone-register {
+  display: none;
+}
+
+.phone-menu {
+  display: none;
+}
+
+.accounts {
+  display: flex;
+  justify-content: center;
+}
+
+.account-photo {
+  position: relative;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.text {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 1;
+}
+
+.text h2 {
+  font-weight: 100;
+  margin: 0;
+}
+
+.t1 {
+  transform: translate(-10%, -50%);
+}
+
+.t2 {
+  transform: translate(-90%, -50%);
+}
+
+.text button {
+  width: 50%;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 25%;
+}
+
+q {
+  font-style: italic;
+  quotes: '"' '"' "'" "'";
+  padding-bottom: 40px;
+}
+
+q::before {
+  content: open-quote;
+}
+
+q::after {
+  content: close-quote;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 30%;
+  background: rgb(172, 172, 255);
+  background: radial-gradient(
+    circle,
+    rgba(172, 172, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.banner button {
+  width: 50%;
+  margin-top: 30px;
+  font-size: 1rem;
+  background-color: #ffc439;
+  color: #101010;
+  border: none;
+}
+
+.kup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#logomini {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.difference-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 20%;
+  gap: 5rem;
+}
+
+.left {
+  flex: 1;
+}
+
+.left img {
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.right {
+  flex: 1;
+  text-align: center;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 1rem;
+}
+
+.copyright {
+  flex: 1;
+  text-align: center;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.social {
+  flex: 1;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.btn2 {
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.bl {
+  background-color: #0070ba;
+  color: #ffffff;
+}
+
+.br {
+  background-color: #ffc439;
+  color: #101010;
+}
+
+.creators {
+  padding: 2rem 15%;
+  text-align: center;
+}
+.creators h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.photos {
+  display: flex;
+}
+
+.person {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+.person img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
